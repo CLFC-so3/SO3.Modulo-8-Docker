@@ -51,7 +51,7 @@ DOCKER + NGINX :)
 </html>
 ##########################################################
 
-docker run -d -p 8888:80 -v /home/website:/usr/share/nginx/html/ nginx
+docker run -d -p 8898:80 -v /home/website:/usr/share/nginx/html/ nginx
 
 docker ps -a
 
@@ -178,6 +178,7 @@ volumes:
 
 docker compose up -d
 docker ps
+
 
 
 
